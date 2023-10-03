@@ -107,7 +107,7 @@ paths:
         - Bearer: []
       tags:
         - transaction Module
-      summary: transaction API
+      summary: Get all transactions
       description: API for fetching transactions of specific account
       parameters:
         - in: path
@@ -136,8 +136,8 @@ paths:
         - Bearer: []
       tags:
         - transaction Module
-      summary: transaction API
-      description: une API pour mettre a jour les categories dans transaction
+      summary: Get a single transaction
+      description: API for fetching a specific transaction
       parameters:
         - in: path
           name: transactionId
@@ -164,7 +164,7 @@ paths:
         - Bearer: []
       tags:
         - transaction Module
-      summary: transaction API
+      summary: Update Category or add note  
       description: API for update category in opération
       parameters:
         - in: path
@@ -202,8 +202,8 @@ paths:
         - Bearer: []
       tags:
         - transaction Module
-      summary: transaction API
-      description: API for update category in transaction
+      summary: Delete note
+      description: Delete note in transaction
       parameters:
         - in: path
           name: transactionId
